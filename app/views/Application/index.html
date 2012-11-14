@@ -1,0 +1,14 @@
+<html>
+<body>
+
+#{form @Application.form(), enctype:'multipart/form-data'}
+   First name: <input type="text" name="obj.fname"><br>
+  Last name: <input type="text" name="obj.sname"><br>
+  <input type="file" name="obj.photo">
+  <input type="submit" value="Upload">
+#{/form}
+
+<p>Click on the submit button, and the input will be sent to h2 database via Application.form".</p>
+
+</body>
+</html>

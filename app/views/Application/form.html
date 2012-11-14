@@ -1,0 +1,7 @@
+<html>
+<body>
+<h1> The fetched data from the database is <h1>
+<p> first name : #{list items:1..articles.size(), as:'i'}${articles.get(i-1).fname} #{/list}
+#{else}No tasks on the list#{/else} </p>
+</body>
+</html>
